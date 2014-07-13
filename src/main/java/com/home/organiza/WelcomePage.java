@@ -19,6 +19,7 @@ public class WelcomePage extends UI {
     @Override
     protected void init(VaadinRequest request) {
         setSizeFull();
+
         String message = ORGANIZA_WELCOME_PAGE;
         Label label = new Label(message);
         setContent(new HorizontalLayout(label));
